@@ -1,6 +1,7 @@
 <template>
   <main class="flex p-2">
-    <section class="flex justify-end w-full">
+    <section class="flex justify-between w-full">
+      <h1 class="dark:text-white">Logo</h1>
       <select
         v-model="$colorMode.preference"
         class="bg-black text-white rounded p-1"
