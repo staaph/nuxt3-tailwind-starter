@@ -1,3 +1,3 @@
 <template>
-  <h1>index</h1>
+  <h1 class="dark:text-white">index</h1>
 </template>
