@@ -1,8 +1,18 @@
 <template>
   <div>
     <h1>Color mode: {{ $colorMode.value }}</h1>
-    <button @click="$colorMode.preference = 'dark'">dark</button>
-    <button @click="$colorMode.preference = 'light'">light</button>
+    <button
+      v-if="$colorMode.preference == 'light'"
+      @click="$colorMode.preference = 'dark'"
+    >
+      dark
+    </button>
+    <button
+      v-if="$colorMode.preference == 'dark'"
+      @click="$colorMode.preference = 'light'"
+    >
+      light
+    </button>
   </div>
 </template>
 
