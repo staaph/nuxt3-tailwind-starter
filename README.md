@@ -1,5 +1,7 @@
 # Nuxt 3 Minimal Starter
 
+This template get you started with TailwindCSS & ColorMode 
+
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
 ## Setup
