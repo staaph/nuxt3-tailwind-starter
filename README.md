@@ -17,6 +17,12 @@ npm install
 pnpm install --shamefully-hoist
 ```
 
+## update dependencies
+
+```bash
+npm update --save
+```
+
 ## Development Server
 
 Start the development server on http://localhost:3000
